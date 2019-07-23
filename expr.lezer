@@ -1,0 +1,19 @@
+precedence { times left, plus left }
+
+top { expression }
+
+expression {
+  Number |
+  BinaryExpression
+}
+
+BinaryExpression {
+  expression !times "*" expression |
+  expression !plus "+" expression |
+  "(" expression ")"
+}
+
+tokens {
+  Number { std.digit+ }
+}
+

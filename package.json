@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "lezer-generator --output parsers/expr expr.lezer"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "lezer": "^0.1.1",
+    "lezer-generator": "^0.1.1"
+  }
+}
