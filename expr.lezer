@@ -1,6 +1,6 @@
-precedence { times left, plus left }
+@precedence { times @left, plus @left }
 
-top { expression }
+@top { expression }
 
 expression {
   Number |
@@ -13,7 +13,7 @@ BinaryExpression {
   "(" expression ")"
 }
 
-tokens {
+@tokens {
   Number { std.digit+ }
 }
 

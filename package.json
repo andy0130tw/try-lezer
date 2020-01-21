@@ -4,7 +4,7 @@
   },
   "dependencies": {
     "esm": "^3.2.25",
-    "lezer": "^0.1.1",
-    "lezer-generator": "^0.1.1"
+    "lezer": "^0.7.0",
+    "lezer-generator": "^0.7.0"
   }
 }

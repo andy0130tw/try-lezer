@@ -7,21 +7,21 @@ esm@^3.2.25:
   resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.25.tgz#342c18c29d56157688ba5ce31f8431fbb795cc10"
   integrity sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==
 
-lezer-generator@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/lezer-generator/-/lezer-generator-0.1.1.tgz#a00a595945a26dd50cfbc6963d4e681e29d3833b"
-  integrity sha512-tqRdBzNiOEDycDMJ31jmMqTqzwDDss+jP1bRK4pu6DbXq8XzBLlO3o5kxwzhUx8g8bAWVrs0GLFGscNgxDyc8g==
+lezer-generator@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/lezer-generator/-/lezer-generator-0.7.0.tgz#92558fa20ae3edc95102b8509c439645ddb0eda4"
+  integrity sha512-WCF5lcYMgH4v7ucA4zviAXo4cNKnqjibiNaWQbkY0LHb4sTXqSxdWz0w6PPorON343AZIM3EXLYgvLs2muq7Iw==
   dependencies:
-    lezer "^0.1.0"
+    lezer "^0.7.0"
 
-lezer-tree@^0.1.0:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/lezer-tree/-/lezer-tree-0.1.1.tgz#ee19c0ee85324475a47f77da860478cc47c9b55f"
-  integrity sha512-dRhVxeC7A0eFqCfWuVfQtv7i9x00H0YT+1WtOWi4/+kcCd/YoN3SppnIiWyPTrtlOiZ+Hy20jbrXXEnFuI59kg==
+lezer-tree@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/lezer-tree/-/lezer-tree-0.7.0.tgz#c132c3dfef95b40ab6d2c56ca104b28efdfc9f0b"
+  integrity sha512-F4Xqqs435TMqL+f4nY9c6CvPVZ8XE3BnlAnAaSMLmA72UbIew74FNbOr+yjFevVtnrWrsBu9b8HqZpFWvb+e2w==
 
-lezer@^0.1.0, lezer@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/lezer/-/lezer-0.1.1.tgz#691b28fb02b6c01eaca2462cb39b7c142cba06b2"
-  integrity sha512-2AuyMKJBFE2W0RQLvP0KJtEmcUJiHTQkITGcSsYNVw4xwdCWC4WbyQsRLjWAM1mCV4j+Jl/pw3nuVKQOY3hq3g==
+lezer@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/lezer/-/lezer-0.7.0.tgz#3468598b0d77f374516df9bb27aa94e26d002c0b"
+  integrity sha512-z/8jGH9YVT15shJY2gMnbsn5U/Y94l/q8fYU6V+N3xYZnRWSANkqX77uk7AjsFdCEKIwpMfGr7Zk0gjjEQSo0g==
   dependencies:
-    lezer-tree "^0.1.0"
+    lezer-tree "^0.7.0"
