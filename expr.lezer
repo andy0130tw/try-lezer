@@ -1,19 +1,20 @@
 @precedence { times @left, plus @left }
 
 @top { expression }
+@skip { space }
 
 expression {
   Number |
-  BinaryExpression
+  BinaryExpression |
+  "(" expression ")"
 }
 
 BinaryExpression {
   expression !times "*" expression |
   expression !plus "+" expression |
-  "(" expression ")"
 }
 
 @tokens {
+  space { std.whitespace+ }
   Number { std.digit+ }
 }
-

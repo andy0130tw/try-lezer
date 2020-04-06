@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "lezer-generator --output parsers/expr expr.lezer"
+    "build": "lezer-generator --output parsers/expr expr.lezer",
+    "start": "node -r esm repl.js"
   },
   "dependencies": {
     "esm": "^3.2.25",
