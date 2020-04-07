@@ -1,6 +1,6 @@
 @precedence { times @left, plus @left }
 
-@top { expression }
+@top Expression { expression }
 @skip { space }
 
 expression {

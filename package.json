@@ -5,7 +5,9 @@
   },
   "dependencies": {
     "esm": "^3.2.25",
-    "lezer": "^0.7.0",
-    "lezer-generator": "^0.7.0"
+    "lezer": "^0.8.0"
+  },
+  "devDependencies": {
+    "lezer-generator": "^0.8.0"
   }
 }
